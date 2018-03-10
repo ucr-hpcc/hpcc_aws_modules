@@ -1,0 +1,8 @@
+#%Module1.0#####################################################################
+##
+## conda modulefile
+##
+#
+#
+#
+prepend-path PATH /hpcc/pkgs/conda/bin
