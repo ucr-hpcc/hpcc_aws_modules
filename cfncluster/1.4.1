@@ -23,7 +23,7 @@ module-whatis   "cfncluster-1.4.1"
 #conflict    python
 
 if { [module-info mode load] || [module-info mode switch2] } {
-    puts stdout "source /hpcc/pkgs/cfncluster/1.4.1/cfncluster/bin/activate;"
+    puts stdout "source ${iigb_modules}/cfncluster/1.4.1/cfncluster/bin/activate;"
 } elseif { [module-info mode remove] && ![module-info mode switch3] } {
     puts stdout "deactivate;"
 }
