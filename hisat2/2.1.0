@@ -23,5 +23,5 @@ module load java
 
 prepend-path    PATH            ${iigb_modules}/hisat2/2.1.0
 
-module          use             ${modules_dir}
+${modules_dir}
 

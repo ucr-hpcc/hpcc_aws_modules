@@ -26,5 +26,5 @@ setenv          PICARD         ${iigb_modules}/picard/1.141/lib/picard.jar
 setenv          PICARDDIR      ${iigb_modules}/picard/1.141/lib
 prepend-path    CLASSPATH      ${iigb_modules}/picard/1.141/lib
 
-module          use            ${modules_dir}
+${modules_dir}
 

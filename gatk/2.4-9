@@ -24,5 +24,5 @@ module load java
 setenv  GATKDIR     ${iigb_modules}/gatk/2.4-9
 setenv  GATK        ${iigb_modules}/gatk/2.4-9/GenomeAnalysisTK.jar
 
-module          use             ${modules_dir}
+${modules_dir}
 
