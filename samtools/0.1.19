@@ -23,5 +23,5 @@ set     datarootdir     ${prefix}/share
 prepend-path    PATH            ${iigb_modules}/samtools/0.1.19/bin
 prepend-path    MANPATH         ${iigb_modules}/samtools/0.1.19/share/man
 
-${modules_dir}
+
 
