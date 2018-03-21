@@ -8,7 +8,7 @@ proc ModulesHelp { } {
         puts stderr "\t - Sets Picard to your environment"
 }
 
-module-whatis   "picard-1.141"
+module-whatis   "picard-1.130"
 
 set      iigb_modules    $::env(IIGB_MODULES)
 set      modules_dir     $::env(MODULES_DIR)
@@ -21,10 +21,10 @@ set     datarootdir     ${prefix}/share
 
 module load java
 module load samtools
-prepend-path    PATH           ${iigb_modules}/picard/1.141/bin
-setenv          PICARD         ${iigb_modules}/picard/1.141/lib/picard.jar
-setenv          PICARDDIR      ${iigb_modules}/picard/1.141/lib
-prepend-path    CLASSPATH      ${iigb_modules}/picard/1.141/lib
+prepend-path    PATH           ${iigb_modules}/picard/1.130/bin
+setenv          PICARD         ${iigb_modules}/picard/1.130/lib/picard.jar
+setenv          PICARDDIR      ${iigb_modules}/picard/1.130/lib
+prepend-path    CLASSPATH      ${iigb_modules}/picard/1.130/lib
 
 
 
